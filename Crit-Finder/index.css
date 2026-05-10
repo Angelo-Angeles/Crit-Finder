@@ -1,0 +1,10 @@
+:root {
+  --base: #F3E4C9; --secondary: #A77F60; --accent: #7F2020; --gold: #F8C463; --text: #2D1E14;
+}
+
+[data-theme='dungeon'] {
+  --base: #080616; --secondary: #452E5A; --accent: #162E93; --gold: #FFC85C; --text: #E2E2E2;
+}
+
+body { background-color: var(--base); color: var(--text); font-family: 'Inter', sans-serif; transition: 0.3s; }
+.dnd-font { font-family: 'MedievalSharp', serif; } /* Add from Google Fonts */
